@@ -4,12 +4,12 @@ import random
 import pandas as pd
 
 st.set_page_config(
-    st.image("banner.png", use_container_width=True)
+   
     page_title="Smart Irrigation System | Simulation",
     page_icon="🌱",
     layout="wide"
 )
-
+ st.image("banner.png", use_container_width=True)
 st.markdown("""
     <style>
     html, body, [class*="css"]  {
