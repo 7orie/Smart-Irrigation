@@ -12,6 +12,8 @@ st.set_page_config(
 st.image("banner.png", use_container_width=True)
 st.markdown("""
 <style>
+st.markdown("""
+<style>
     @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap');
 
     html, body, [class*="st-"], .main {
