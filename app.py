@@ -9,7 +9,7 @@ st.set_page_config(
     page_icon="🌱",
     layout="wide"
 )
- st.image("banner.png", use_container_width=True)
+st.image("banner.png", use_container_width=True)
 st.markdown("""
     <style>
     html, body, [class*="css"]  {
