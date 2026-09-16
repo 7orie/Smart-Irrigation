@@ -39,8 +39,7 @@ st.markdown("""
 
 
 
-</style>
-""", unsafe_allow_html=True)
+
     html, body, [class*="css"]  {
         direction: rtl;
         text-align: right;
@@ -53,8 +52,7 @@ st.markdown("""
         direction: rtl;
         text-align: right;
     }
-    </style>
-""", unsafe_allow_html=True)
+ 
 
 if "zones" not in st.session_state:
     st.session_state.zones = {}
