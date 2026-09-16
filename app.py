@@ -18,22 +18,22 @@ st.markdown("""
         font-family: 'Cairo', sans-serif !important;
         direction: rtl !important;
         text-align: right !important;
-        }
+    }
 
-        [data-testid="stMarkdownContainer"] p, 
-        [data-testid="stMarkdownContainer"] h1, 
-        [data-testid="stMarkdownContainer"] h2, 
-        [data-testid="stMarkdownContainer"] h3,
-        .stApp div {
-            white-space: normal !important;
-            word-break: keep-all !important;
-            overflow-wrap: break-word !important;
-        }
+    [data-testid="stMarkdownContainer"] p, 
+    [data-testid="stMarkdownContainer"] h1, 
+    [data-testid="stMarkdownContainer"] h2, 
+    [data-testid="stMarkdownContainer"] h3,
+    .stApp div {
+        white-space: normal !important;
+        word-break: keep-all !important;
+        overflow-wrap: break-word !important;
+    }
 
-        [data-testid="stMetricValue"], [data-testid="stMetricLabel"] {
-            text-align: right !important;
-            justify-content: flex-start !important;
-        }
+    [data-testid="stMetricValue"], [data-testid="stMetricLabel"] {
+        text-align: right !important;
+        justify-content: flex-start !important;
+    }
 </style>
 """, unsafe_allow_html=True)
     html, body, [class*="css"]  {
