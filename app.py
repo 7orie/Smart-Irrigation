@@ -1,10 +1,10 @@
+import streamlit as st
 import time
 import random
 import pandas as pd
-import streamlit as st
 
 st.set_page_config(
-    page_title="نظام الري الذكي - Dynamic Smart Irrigation",
+    page_title="Smart Irrigation System | Simulation",
     page_icon="🌱",
     layout="wide"
 )
