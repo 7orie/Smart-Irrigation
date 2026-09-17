@@ -11,26 +11,23 @@ st.set_page_config(
 )
 st.image("banner.png", use_container_width=True)
 st.markdown("""
+<style>
+html, body, [class*="css"] {
+    direction: rtl;
+    text-align: right;
+}
 
-   
+.stMetric label, .stMetric div {
+    direction: rtl;
+    text-align: right;
+}
+
+section[data-testid="stSidebar"] {
+    direction: rtl;
+    text-align: right;
+}
+</style>
 """, unsafe_allow_html=True)
-
-
-
-
-
-    html, body, [class*="css"]  {
-        direction: rtl;
-        text-align: right;
-    }
-    .stMetric label, .stMetric div {
-        direction: rtl;
-        text-align: right;
-    }
-    section[data-testid="stSidebar"] {
-        direction: rtl;
-        text-align: right;
-    }
  
 
 if "zones" not in st.session_state:
