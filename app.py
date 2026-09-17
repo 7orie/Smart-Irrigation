@@ -11,10 +11,8 @@ st.set_page_config(
 )
 st.image("banner.png", use_container_width=True)
 st.markdown("""
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
-<style>
+
    
-    
 """, unsafe_allow_html=True)
 
 
