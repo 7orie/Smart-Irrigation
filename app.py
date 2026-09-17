@@ -13,27 +13,8 @@ st.image("banner.png", use_container_width=True)
 st.markdown("""
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
 <style>
-    html, body, [class*="st-"], .main {
-        font-family: 'Cairo', sans-serif !important;
-        direction: rtl !important;
-        text-align: right !important;
-    }
-
-    [data-testid="stMarkdownContainer"] p, 
-    [data-testid="stMarkdownContainer"] h1, 
-    [data-testid="stMarkdownContainer"] h2, 
-    [data-testid="stMarkdownContainer"] h3,
-    .stApp div {
-        white-space: normal !important;
-        word-break: keep-all !important;
-        overflow-wrap: break-word !important;
-    }
-
-    [data-testid="stMetricValue"], [data-testid="stMetricLabel"] {
-        text-align: right !important;
-        justify-content: flex-start !important;
-    }
-</style>
+   
+    
 """, unsafe_allow_html=True)
 
 
